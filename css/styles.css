@@ -1,0 +1,251 @@
+.main {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.winner-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.winner-box .msg-container {
+  margin: 50px;
+  height: 400px;
+  width: 400px;
+  background-color: #e6e1e1;
+  border-radius: 15px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+.winner-box .msg-container #msg {
+  color: #fff;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.winner-box .msg-container #msg p {
+  margin-top: 30px;
+}
+.winner-box .msg-container img {
+  margin: 0 auto;
+  height: 230px;
+  width: 230px;
+}
+
+.hide {
+  display: none;
+}
+
+.game-title h2 {
+  margin-top: 20px;
+  color: #fff;
+}
+
+.game-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.game-holder .game {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 5px;
+  width: 380px;
+  margin-top: 30px;
+}
+.game-holder .game .box {
+  height: 120px;
+  width: 100px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 0 16px rgba(103, 26, 218, 0.3);
+  font-size: 50px;
+  color: rgb(116, 79, 146);
+  background-color: #e6e1e1;
+}
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px/20px "googleapis";
+  color: #231f20;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url(..//image/background.jpg);
+  background-position: center;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin: 0 0 10px;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 25px;
+  line-height: 70px;
+}
+@media screen and (min-width: 576px) {
+  h1 {
+    font-size: 35px;
+  }
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 32px;
+  }
+}
+
+h4 {
+  font-size: 18px;
+  color: #fff;
+}
+@media screen and (min-width: 768px) {
+  h4 {
+    font-size: 30px;
+  }
+}
+
+h5 {
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  h5 {
+    font-size: 20px;
+  }
+}
+
+h6 {
+  font-size: 16px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+textarea {
+  resize: vertical;
+  vertical-align: top;
+}
+
+button,
+input[type=button],
+input[type=reset],
+input[type=file],
+input[type=submit] {
+  cursor: pointer;
+}
+
+form,
+fieldset {
+  margin: 0;
+  padding: 0;
+  border-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  transition: all ease-in-out 0.3s;
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid transparent;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #0C0C0C;
+}
+p.para {
+  color: #fff;
+}
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+button {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500px;
+  text-transform: capitalize;
+  padding: 10px 15px;
+  background-color: #fff;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  transition: all ease-in-out 0.3s;
+  min-width: 120px;
+  color: #fff;
+}
+button.primary-btn {
+  background-color: rgb(173, 84, 202);
+  border-radius: 5px;
+  margin-top: 30px;
+  height: 50px;
+  width: 200px;
+}
+button.primary-btn:hover {
+  background-color: #9a49d8;
+}
+button.secondary-btn {
+  background-color: #9257c6;
+  color: #fff;
+  border-radius: 5px;
+  width: 200px;
+}
+button.secondary-btn:hover {
+  background-color: #8e47da;
+}/*# sourceMappingURL=styles.css.map */
